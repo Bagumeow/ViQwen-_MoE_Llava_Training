@@ -8,22 +8,10 @@
 <h5 align="center">
     
 ## 😮 Highlights
+This is my graduate dissertation at IUH base on MoE-LLaVA we will train it on chart dataset with small, complex feature then go through Small-Language Model (SLM) that is Qwen 0.5B 
+This is our poster presentation:
+![image](https://github.com/user-attachments/assets/6aec2fd1-236e-4e15-9578-882e51bb1b01)
 
-MoE-LLaVA shows excellent performance in multi-modal learning.
-
-### 🔥 High performance, but with fewer parameters
-- with just **3B sparsely activated parameters**, MoE-LLaVA demonstrates performance comparable to the LLaVA-1.5-7B on various visual understanding datasets and even surpasses the LLaVA-1.5-13B in object hallucination benchmarks.
-
-<p align="center">
-<img src="assets/intro0.jpg" width=55%>
-</p>
-
-### 🚀 Simple baseline, learning multi-modal interactions with sparse pathways.
-- With the addition of **a simple MoE tuning stage**, we can complete the training of MoE-LLaVA on **8 A100 GPUs** within 1 days.
-
-<p align="center">
-<img src="assets/intro.jpg" width=65%>
-</p>
 
 ## 🤗 Demo
 
