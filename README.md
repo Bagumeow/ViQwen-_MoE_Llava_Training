@@ -1,14 +1,14 @@
 <p align="center">
     <img src="./assets/ChartLLamma.jpg" width="250" style="margin-bottom: 0.2;"/>
 <p>
-<h2 align="center"> ViTern-MoE-LLaVA: Intern VIT Mixture of Experts for Large Vision-Language Models</a></h2>
+<h2 align="center"> ViQwen-MoE-LLaVA: Intern VIT Mixture of Experts for Large Vision-Language Models</a></h2>
 <h5 align="center"> If you like our project, please give us a star ⭐ on GitHub for latest update.  </h2>
 <h5 align="center"> This Repo is fork from MoE-LLaVa!! </h2>
 
 <h5 align="center">
     
 ## 😮 Highlights
-This is my graduate dissertation at IUH base on MoE-LLaVA we will train it on chart dataset with small, complex feature then go through Small-Language Model (SLM) that is Qwen 0.5B 
+This is my graduate dissertation at IUH base on MoE-LLaVA we will train it on chart dataset with small, complex feature that got extract feature by InternViT 300M then go through Small-Language Model (SLM) that is Qwen 0.5B 
 
 This is our poster presentation:
 
