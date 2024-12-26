@@ -10,7 +10,9 @@
 ## 😮 Highlights
 This is my graduate dissertation at IUH base on MoE-LLaVA we will train it on chart dataset with small, complex feature then go through Small-Language Model (SLM) that is Qwen 0.5B 
 This is our poster presentation:
-![image](https://github.com/user-attachments/assets/6aec2fd1-236e-4e15-9578-882e51bb1b01)
+
+<p align="center">
+    <img src="./assets/poster.png" style="margin-bottom: 0.2;"/>
 
 
 ## 🤗 Demo
