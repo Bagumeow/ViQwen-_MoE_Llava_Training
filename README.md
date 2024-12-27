@@ -51,55 +51,6 @@ deepspeed --include localhost:0 moellava/serve/cli.py --model-path "LanguageBind
 
 <img src="assets/imagecli.gif" />
 
-## 🐳 Model Zoo
-
-| Model | Activated Param | Transformers(HF) | ModelScope(HF) | Avg | VQAv2 | GQA | VizWiz | SQA-IMG | T-VQA | POPE | MME | MM-Bench | MM-Vet |
-|----------|-----------|-----------|---|---|---|---|---|---|---|---|---|---|---|
-| MoE-LLaVA-1.6B×4-Top2 | 2.0B | [🤗LanguageBind/MoE-LLaVA-StableLM-1.6B-4e](https://huggingface.co/LanguageBind/MoE-LLaVA-StableLM-1.6B-4e) | [<img src="https://github.com/PKU-YuanGroup/MoE-LLaVA/raw/main/assets/modelscope_logo.png" width="20px" style="max-width: 100%;">PKU-YuanLab/MoE-LLaVA-StableLM-1.6B-4e](https://modelscope.cn/models/PKU-YuanLab/MoE-LLaVA-StableLM-1.6B-4e) | 57.3 | 76.7 | 60.3 | 36.2 | 62.6 | 50.1 | 85.7 | 1318.1 | 60.2 | 26.9 |
-| MoE-LLaVA-1.8B×4-Top2 | 2.2B | [🤗LanguageBind/MoE-LLaVA-Qwen-1.8B-4e](https://huggingface.co/LanguageBind/MoE-LLaVA-Qwen-1.8B-4e) | [<img src="https://github.com/PKU-YuanGroup/MoE-LLaVA/raw/main/assets/modelscope_logo.png" width="20px" style="max-width: 100%;">PKU-YuanLab/MoE-LLaVA-Qwen-1.8B-4e](https://modelscope.cn/models/PKU-YuanLab/MoE-LLaVA-Qwen-1.8B-4e) | 56.7 | 76.2 | 61.5 | 32.6 | 63.1 | 48.0 | 87.0 | 1291.6 | 59.6 | 25.3 |
-| MoE-LLaVA-2.7B×4-Top2 | 3.6B | [🤗LanguageBind/MoE-LLaVA-Phi2-2.7B-4e](https://huggingface.co/LanguageBind/MoE-LLaVA-Phi2-2.7B-4e) | [<img src="https://github.com/PKU-YuanGroup/MoE-LLaVA/raw/main/assets/modelscope_logo.png" width="20px" style="max-width: 100%;">PKU-YuanLab/MoE-LLaVA-Phi2-2.7B-4e](https://modelscope.cn/models/PKU-YuanLab/MoE-LLaVA-Phi2-2.7B-4e) | 61.1 | 77.6 | 61.4 | 43.9 | 68.5 | 51.4 | 86.3 | 1423.0 | 65.2 | 34.3 |
-| MoE-LLaVA-1.6B×4-Top2-384 | 2.0B | [🤗LanguageBind/MoE-LLaVA-StableLM-1.6B-4e-384](https://huggingface.co/LanguageBind/MoE-LLaVA-StableLM-1.6B-4e-384) | [<img src="https://github.com/PKU-YuanGroup/MoE-LLaVA/raw/main/assets/modelscope_logo.png" width="20px" style="max-width: 100%;">PKU-YuanLab/MoE-LLaVA-StableLM-1.6B-4e-384](https://modelscope.cn/models/PKU-YuanLab/MoE-LLaVA-StableLM-1.6B-4e-384) | 60.0 | 78.6 | 61.5 | 40.5 | 63.9 | 54.3 | 85.9 | 1335.7 | 63.3 | 32.3 |
-| MoE-LLaVA-2.7B×4-Top2-384 | 3.6B | [🤗LanguageBind/MoE-LLaVA-Phi2-2.7B-4e-384](https://huggingface.co/LanguageBind/MoE-LLaVA-Phi2-2.7B-4e-384) | [<img src="https://github.com/PKU-YuanGroup/MoE-LLaVA/raw/main/assets/modelscope_logo.png" width="20px" style="max-width: 100%;">PKU-YuanLab/MoE-LLaVA-Phi2-2.7B-4e-384](https://modelscope.cn/models/PKU-YuanLab/MoE-LLaVA-Phi2-2.7B-4e-384) | **62.9** | 79.9 | 62.6 | 43.7 | 70.3 | 57.0 | 85.7 | 1431.3 | 68.0 | 35.9 |
-| LLaVA-1.5 | 7B | [🤗liuhaotian/llava-v1.5-7b](https://huggingface.co/liuhaotian/llava-v1.5-7b) | - | 62.0 | 78.5 | 62.0 | 50.0 | 66.8 | 58.2 | 85.9 | 1510.7 | 64.3 | 30.5 |
-
-<!--
-| LLaVA-1.5 | 13B | [liuhaotian/llava-v1.5-13b](https://huggingface.co/liuhaotian/llava-v1.5-13b) | 64.9 | 80.0 | 63.3 | 53.6 | 71.6 | 61.3 | 85.9 | 1531.3 | 67.7 | 35.4 |
--->
-
-<details>
-
-
-🚨 **Please know https://github.com/PKU-YuanGroup/MoE-LLaVA/issues/27.**
-
-
-<summary>Stage2 Model</summary>
-
-
-    
-| Model  | Checkpoint |
-|----------|-----------|
-| MoE-LLaVA-1.6B×4-Top2 | [LanguageBind/MoE-LLaVA-StableLM-Stage2](https://huggingface.co/LanguageBind/MoE-LLaVA-StableLM-Stage2) |
-| MoE-LLaVA-1.6B×4-Top2-384 | [LanguageBind/MoE-LLaVA-StableLM-Stage2-384](https://huggingface.co/LanguageBind/MoE-LLaVA-StableLM-Stage2-384) |
-| MoE-LLaVA-1.8B×4-Top2 | [LanguageBind/MoE-LLaVA-Qwen-Stage2](https://huggingface.co/LanguageBind/MoE-LLaVA-Qwen-Stage2) |
-| MoE-LLaVA-2.7B×4-Top2 | [LanguageBind/MoE-LLaVA-Phi2-Stage2](https://huggingface.co/LanguageBind/MoE-LLaVA-Phi2-Stage2) |
-| MoE-LLaVA-2.7B×4-Top2-384 | [LanguageBind/MoE-LLaVA-Phi2-Stage2-384](https://huggingface.co/LanguageBind/MoE-LLaVA-Phi2-Stage2-384) |
-
-</details>
-
-<details>
-<summary>Pretrain Model</summary>
-
-| Model  | Checkpoint |
-|----------|-----------|
-| MoE-LLaVA-1.6B×4-Top2 | [LanguageBind/MoE-LLaVA-StableLM-Pretrain](https://huggingface.co/LanguageBind/MoE-LLaVA-StableLM-Pretrain) |
-| MoE-LLaVA-1.6B×4-Top2-384 | [LanguageBind/MoE-LLaVA-StableLM-384-Pretrain](https://huggingface.co/LanguageBind/MoE-LLaVA-StableLM-384-Pretrain) |
-| MoE-LLaVA-1.8B×4-Top2 | [LanguageBind/MoE-LLaVA-Qwen-Pretrain](https://huggingface.co/LanguageBind/MoE-LLaVA-Qwen-Pretrain) |
-| MoE-LLaVA-2.7B×4-Top2 | [LanguageBind/MoE-LLaVA-Phi2-Pretrain](https://huggingface.co/LanguageBind/MoE-LLaVA-Phi2-Pretrain) |
-| MoE-LLaVA-2.7B×4-Top2-384 | [LanguageBind/MoE-LLaVA-Phi2-384-Pretrain](https://huggingface.co/LanguageBind/MoE-LLaVA-Phi2-384-Pretrain) |
-
-
-</details>
-
 ## ⚙️ Requirements and Installation
 We recommend the requirements as follows.
 * Python == 3.10
@@ -236,12 +187,6 @@ If you find our paper and code useful in your research, please consider giving a
   year={2023}
 }
 ```
-
-
-
-## ✨ Star History
-[![Star History](https://api.star-history.com/svg?repos=PKU-YuanGroup/MoE-LLaVA&type=Date)](https://star-history.com/#PKU-YuanGroup/MoE-LLaVA&Date)
-
 
 ## 🤝 Contributors
 
