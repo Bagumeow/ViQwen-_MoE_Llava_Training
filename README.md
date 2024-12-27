@@ -246,5 +246,6 @@ If you find our paper and code useful in your research, please consider giving a
 ## 🤝 Contributors
 
 <a href="https://github.com/Bagumeow/ViQwen-_MoE_Llava_Training/graphs/contributors">
-  <img src="https://avatars.githubusercontent.com/u/93193119?v=4&size=64" style="border-radius: 50%;" />
+  <img src="https://avatars.githubusercontent.com/u/93193119?v=4&size=64" style="border-radius: 50%; width: 64px; height: 64px;" />
 </a>
+
