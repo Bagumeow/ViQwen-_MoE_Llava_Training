@@ -13,7 +13,7 @@ This is my graduate dissertation at IUH base on MoE-LLaVA we will train it on ch
 Our Weight training in each stage are public in this [Huggingface account](https://huggingface.co/hieptuyet1102)
 
 This is our poster presentation:
-
+￼
 <p align="center">
     <img src="./assets/poster.png" style="margin-bottom: 0.2;"/>
 
@@ -246,5 +246,5 @@ If you find our paper and code useful in your research, please consider giving a
 ## 🤝 Contributors
 
 <a href="https://github.com/Bagumeow/ViQwen-_MoE_Llava_Training/graphs/contributors">
-  <img src="https://avatars.githubusercontent.com/u/93193119?v=4&size=64" />
+  <img src="https://avatars.githubusercontent.com/u/93193119?v=4&size=64" style="border-radius: 50%;/>
 </a>
