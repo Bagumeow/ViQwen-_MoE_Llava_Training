@@ -8,7 +8,9 @@
 <h5 align="center">
     
 ## 😮 Highlights
-This is my graduate dissertation at IUH base on MoE-LLaVA we will train it on chart dataset with small, complex feature that got extract feature by InternViT 300M then go through Small-Language Model (SLM) that is Qwen 0.5B 
+This is my graduate dissertation at IUH base on MoE-LLaVA we will train it on chart dataset with small, complex feature that got extract feature by InternViT 300M then go through a Small-Language Model (SLM) that is Qwen 0.5B.
+
+Our Weight training in each stage are public in this [Huggingface account](https://huggingface.co/hieptuyet1102)
 
 This is our poster presentation:
 
